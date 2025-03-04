@@ -8,8 +8,8 @@ import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Portfolio of Seydou Diallo',
-  description: 'This is the portfolio of Seydou Diallo. I am a web developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
+  title: 'Seydou Diallo Backend Developer',
+  description: 'This is the portfolio of Seydou Diallo. I am a backend developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
 }
 
 export default function RootLayout({ children }) {
