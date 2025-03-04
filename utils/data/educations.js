@@ -2,7 +2,7 @@ export const educations = [
   {
     id: 1,
     title: "Software and DevOps Engineering",
-    duration: "2024 - Actual",
+    duration: "2024 - 2025",
     institution: "Coursera with FORCE-N(Online)",
   },
   {
