@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Analytics } from "@vercel/analytics/react";
 import Footer from './components/footer';
 import Navbar from './components/navbar';
 import './css/card.scss';
