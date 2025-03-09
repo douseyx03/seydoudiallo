@@ -34,6 +34,32 @@ body {
 }
 
 .sticky-card {
-  // padding-top: calc(var(--index) * 2.5rem);
   top: calc(var(--index) * 4rem);
+}
+
+// Ajoutez ces styles pour masquer les widgets dupliqués
+.goog-te-gadget:not(:first-of-type) {
+    display: none !important;
+  }
+
+// Style pour le premier (et seul) widget
+.goog-te-gadget {
+  font-family: inherit !important;
+  
+  .goog-te-combo {
+    padding: 5px;
+    border-radius: 4px;
+    background: #1a1443;
+    color: white;
+    border: 1px solid #353a52;
+    
+    &:focus {
+      outline: none;
+      border-color: #16f2b3;
+}
+  }
+  
+  span {
+    display: none !important;
+  }
 }
