@@ -116,21 +116,25 @@ function HeroSection() {
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">PHP</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">JS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Python</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Laravel</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Symfony</span>
-                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Flarum</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Python</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Wordpress</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MySql</span>
                 <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">PostgreSQL</span>
+                <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Ubuntu</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
