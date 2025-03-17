@@ -12,7 +12,7 @@ export const skillsData = [
   'PHP',
   'Figma',
   'Laravel',
-  'Symfony',
+  'Python',
   'Wordpress',
   'Nginx',
   'Canva'
