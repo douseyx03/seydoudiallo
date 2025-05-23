@@ -1,6 +1,18 @@
 export const experiences = [
   
   {
+    id: 5,
+    title: "Full Stack Developer",
+    company: "Freelance",
+    duration: "May 2025 - Jul 2025"
+  },
+  {
+    id: 4,
+    title: "Backend Developer",
+    company: "Teranga Code",
+    duration: "Jan 2025 - Present(Part-time)"
+  },
+  {
     id: 3,
     title: "IT Developer",
     company: "National University Hospital Center of Fann (CHNU Fann)",

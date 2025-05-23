@@ -63,3 +63,44 @@ body {
     display: none !important;
   }
 }
+
+// Ajoutez ces styles à la fin du fichier
+// Masquer uniquement la bannière supérieure de Google Translate
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+// Empêcher le décalage du contenu
+body {
+  top: 0 !important;
+}
+
+// Styles pour le widget de sélection de langue
+.goog-te-gadget {
+  font-family: inherit !important;
+  
+  .goog-te-combo {
+    padding: 5px;
+    border-radius: 4px;
+    background: #1a1443;
+    color: white;
+    border: 1px solid #353a52;
+    
+    &:focus {
+      outline: none;
+      border-color: #16f2b3;
+    }
+  }
+  
+  // Masquer uniquement le texte "Select Language" de Google
+  .goog-te-gadget-simple {
+    span:not(.goog-te-menu-value) {
+      display: none !important;
+    }
+  }
+}
+
+// Éviter les widgets dupliqués
+.goog-te-gadget:not(:first-of-type) {
+  display: none !important;
+}
